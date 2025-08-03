@@ -1,40 +1,43 @@
-# AI/ML Internship Tasks – DevelopersHub Corporation (2025)
 
-This repository contains all 6 completed tasks from the AI/ML Engineering Internship program at DevelopersHub Corporation.
 
-🔗 GitHub Repository: developershub-aiml-internship-tasks-2025
+# 💼 AI/ML Internship Tasks – DevelopersHub Corporation (2025)
 
-🚀 Project Overview
+Welcome to the official repository for the **AI/ML Engineering Internship** at **DevelopersHub Corporation** (2025). This repository showcases **six complete chatbot-based projects** developed during the internship, focusing on healthcare applications using **machine learning, NLP, and large language models (LLMs).**
 
-Task No.	Chatbot Name	Description
-Task 1	Disease Prediction Chatbot	Predicts the most likely disease based on the user's symptoms.
-Task 2	Medicine Recommendation Chatbot	Suggests medicines for symptoms or diagnosed illnesses.
-Task 3	Symptom Checker Chatbot	Provides insights and information about input symptoms.
-Task 4	General Health Query Chatbot	Answers common health-related queries using prompt engineering.
-Task 5	Mental Health Support Chatbot	Provides emotionally supportive responses for mental health concerns.
-Task 6	Healthcare QA Chatbot	Answers factual healthcare questions using a pre-trained LLM.
+🔗 **GitHub Repository:** [developershub-aiml-internship-tasks-2025](https://github.com/Manahil-Iftikhar/developershub-aiml-internship-tasks-2025)
 
-🛠️ Tools & Technologies
+---
 
-Python 3.x
+## 🚀 Project Overview
 
-Google Colab – For interactive notebook execution
+Each task in this internship focused on solving a unique healthcare-related problem using AI. The following table summarizes the developed chatbots:
 
-VS Code – For code development, testing, and editing
+| Task No. | Chatbot Name                    | Description                                                         |
+| -------- | ------------------------------- | ------------------------------------------------------------------- |
+| Task 1   | Disease Prediction Chatbot      | Predicts the most likely disease based on user-provided symptoms.   |
+| Task 2   | Medicine Recommendation Chatbot | Recommends medicines for given symptoms or diagnosed conditions.    |
+| Task 3   | Symptom Checker Chatbot         | Offers detailed insights and possible causes for reported symptoms. |
+| Task 4   | General Health Query Chatbot    | Responds to common health queries using prompt engineering.         |
+| Task 5   | Mental Health Support Chatbot   | Delivers emotionally supportive replies for mental wellness.        |
+| Task 6   | Healthcare QA Chatbot           | Answers factual health-related questions using a pre-trained LLM.   |
 
-Transformers (Hugging Face) – For using LLMs like Falcon, BERT, etc.
+---
 
-Prompt Engineering – For conversational understanding in Tasks 4–6
+## 🛠️ Tools & Technologies
 
-Pandas / NumPy / Scikit-learn – Data handling and ML logic
+* **Python 3.x**
+* **Google Colab** – Interactive notebook environment
+* **VS Code** – Code development and testing
+* **Transformers (Hugging Face)** – LLMs like Falcon, BERT, etc.
+* **Prompt Engineering** – For Tasks 4–6 conversational logic
+* **Pandas / NumPy / Scikit-learn** – Data handling and machine learning
+* **Matplotlib / Seaborn** – Visualizations (where applicable)
 
-Matplotlib / Seaborn – Optional visualizations (where used)
+---
 
-📁 Folder Structure
+## 📁 Repository Structure
 
-arduino
-Copy
-Edit
+```plaintext
 developershub-aiml-internship-tasks-2025/
 │
 ├── Task-1-Disease-Prediction/
@@ -56,52 +59,67 @@ developershub-aiml-internship-tasks-2025/
 │   └── Healthcare_QA_Chatbot.ipynb
 │
 └── README.md
-✅ How to Run
+```
 
-🔹 Google Colab (Recommended)
+---
 
-Open any .ipynb notebook using Google Colab
+## ✅ How to Run the Chatbots
 
-Run each cell step-by-step
+### 🔹 Using Google Colab (Recommended)
 
-Try various inputs and interact with the chatbot
+1. Open any `.ipynb` notebook via Google Colab.
+2. Run the cells sequentially.
+3. Interact with the chatbot by providing input in the designated cell.
 
-🔸 VS Code (Optional)
+### 🔸 Using VS Code
 
-Clone the repository
+1. Clone the repository:
 
-bash
-Copy
-Edit
-git clone https://github.com/Manahil-Iftikhar/developershub-aiml-internship-tasks-2025.git
-Open the folder in VS Code
+   ```bash
+   git clone https://github.com/Manahil-Iftikhar/developershub-aiml-internship-tasks-2025.git
+   ```
+2. Open the folder in **VS Code**.
+3. Set up a Python environment with the required packages:
 
-Set up a Python environment (with required packages like transformers, torch, etc.)
+   * `transformers`
+   * `torch`
+   * `scikit-learn`
+   * `pandas`, etc.
+4. Use Jupyter extension or convert notebooks to `.py` scripts as needed.
 
-Convert .ipynb to .py (optional) or run using the Jupyter extension
+---
 
-📌 Notes
+## 📌 Important Notes
 
-No OpenAI API is used – all models are open-source and freely accessible
+* 💡 **No OpenAI API** was used — all models are open-source and freely available.
+* ✨ Tasks 4–6 rely on **prompt engineering** for dynamic interaction with LLMs.
+* ⚙️ Some models (e.g., Falcon) may require:
 
-Tasks 4–6 leverage prompt engineering for interacting with LLMs
+  * GPU acceleration (in Google Colab)
+  * Stable internet connection
 
-Some models (like Falcon) may require enabling GPU in Colab and a stable internet connection
+---
 
-📄 License
+## 📄 License
 
-This project is released under the MIT License.
+This project is licensed under the **[MIT License](LICENSE)** – free to use and modify.
 
-🙋‍♀️ Author
-Manahil Iftikhar
+---
+
+## 🙋‍♀️ Author
+
+**Manahil Iftikhar**
 AI/ML Intern – DevelopersHub (2025)
-GitHub: @Manahil-Iftikhar
+🔗 GitHub: [@Manahil-Iftikhar](https://github.com/Manahil-Iftikhar)
 
-🤝 Acknowledgements
+---
 
-Hugging Face – for model access
+## 🤝 Acknowledgements
 
-Google Colab – for running notebooks
+* **Hugging Face** – For model access and support
+* **Google Colab** – For providing an accessible and powerful execution environment
+* **DevelopersHub Mentors** – For their guidance and support throughout the internship
+* **Open-source community** – For tools and libraries used across all tasks
 
-Open-source contributors and mentors at DevelopersHub
 
+Let me know if you'd like this exported to a `.md` file or want custom badges (e.g., Python version, License, Colab links) added at the top!
