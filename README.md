@@ -1,128 +1,107 @@
-Perfect! Below is your **final, ready-to-copy-paste `README.md`** — updated with:
+# AI/ML Internship Tasks – DevelopersHub Corporation (2025)
 
-* **VS Code** as a tool used
-* Your **GitHub username & repo link**
-* Clean formatting for **direct copy-paste**
+This repository contains all 6 completed tasks from the AI/ML Engineering Internship program at DevelopersHub Corporation.
 
----
+🔗 GitHub Repository: developershub-aiml-internship-tasks-2025
 
-```markdown
-# 🧠 AI-Based Healthcare Chatbots – Internship Tasks (2025)
+🚀 Project Overview
 
-Welcome to my internship task repository for the **DevelopersHub AI/ML Internship 2025**. This project features **6 unique AI-powered healthcare chatbots**, each built for a different use case using NLP, LLMs, and prompt engineering.
+Task No.	Chatbot Name	Description
+Task 1	Disease Prediction Chatbot	Predicts the most likely disease based on the user's symptoms.
+Task 2	Medicine Recommendation Chatbot	Suggests medicines for symptoms or diagnosed illnesses.
+Task 3	Symptom Checker Chatbot	Provides insights and information about input symptoms.
+Task 4	General Health Query Chatbot	Answers common health-related queries using prompt engineering.
+Task 5	Mental Health Support Chatbot	Provides emotionally supportive responses for mental health concerns.
+Task 6	Healthcare QA Chatbot	Answers factual healthcare questions using a pre-trained LLM.
 
-> 🔗 GitHub Repository: [developershub-aiml-internship-tasks-2025](https://github.com/Manahil-Iftikhar/developershub-aiml-internship-tasks-2025)
+🛠️ Tools & Technologies
 
----
+Python 3.x
 
-## 🚀 Project Overview
+Google Colab – For interactive notebook execution
 
-| Task No. | Chatbot Name                      | Description                                                                 |
-|----------|-----------------------------------|-----------------------------------------------------------------------------|
-| Task 1   | Disease Prediction Chatbot        | Predicts the most likely disease based on the user's symptoms.              |
-| Task 2   | Medicine Recommendation Chatbot   | Suggests medicines for symptoms or diagnosed illnesses.                     |
-| Task 3   | Symptom Checker Chatbot           | Provides insights and information about input symptoms.                     |
-| Task 4   | General Health Query Chatbot      | Answers common health-related queries using prompt engineering.             |
-| Task 5   | Mental Health Support Chatbot     | Provides emotionally supportive responses for mental health concerns.       |
-| Task 6   | Healthcare QA Chatbot             | Answers factual healthcare questions using a pre-trained LLM.               |
+VS Code – For code development, testing, and editing
 
----
+Transformers (Hugging Face) – For using LLMs like Falcon, BERT, etc.
 
-## 🛠️ Tools & Technologies
+Prompt Engineering – For conversational understanding in Tasks 4–6
 
-- **Python 3.x**
-- **Google Colab** – For interactive notebook execution  
-- **VS Code (Visual Studio Code)** – For code development, testing & editing  
-- **Transformers (Hugging Face)** – For using LLMs like Falcon, BERT, etc.
-- **Prompt Engineering** – For conversational understanding in Tasks 4-6  
-- **Pandas / NumPy / Sklearn** – Data handling and basic ML logic  
-- **Matplotlib / Seaborn** – For optional visualizations (where used)
+Pandas / NumPy / Scikit-learn – Data handling and ML logic
 
----
+Matplotlib / Seaborn – Optional visualizations (where used)
 
-## 📁 Folder Structure
+📁 Folder Structure
 
-```
-
+arduino
+Copy
+Edit
 developershub-aiml-internship-tasks-2025/
 │
 ├── Task-1-Disease-Prediction/
-│   └── Disease\_Prediction\_Chatbot.ipynb
+│   └── Disease_Prediction_Chatbot.ipynb
 │
 ├── Task-2-Medicine-Recommendation/
-│   └── Medicine\_Recommendation\_Chatbot.ipynb
+│   └── Medicine_Recommendation_Chatbot.ipynb
 │
 ├── Task-3-Symptom-Checker/
-│   └── Symptom\_Checker\_Chatbot.ipynb
+│   └── Symptom_Checker_Chatbot.ipynb
 │
 ├── Task-4-General-Health-Query/
-│   └── General\_Health\_Chatbot.ipynb
+│   └── General_Health_Chatbot.ipynb
 │
 ├── Task-5-Mental-Health-Support/
-│   └── Mental\_Health\_Chatbot.ipynb
+│   └── Mental_Health_Chatbot.ipynb
 │
 ├── Task-6-Healthcare-QA/
-│   └── Healthcare\_QA\_Chatbot.ipynb
+│   └── Healthcare_QA_Chatbot.ipynb
 │
 └── README.md
+✅ How to Run
 
-````
+🔹 Google Colab (Recommended)
 
----
+Open any .ipynb notebook using Google Colab
 
-## ✅ How to Run
+Run each cell step-by-step
 
-### 🔹 Google Colab (Recommended)
+Try various inputs and interact with the chatbot
 
-1. Open any `.ipynb` notebook using [Google Colab](https://colab.research.google.com/)
-2. Run each cell step by step.
-3. Try various inputs and interact with the chatbot.
+🔸 VS Code (Optional)
 
-### 🔸 VS Code (Optional)
+Clone the repository
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Manahil-Iftikhar/developershub-aiml-internship-tasks-2025.git
-````
+bash
+Copy
+Edit
+git clone https://github.com/Manahil-Iftikhar/developershub-aiml-internship-tasks-2025.git
+Open the folder in VS Code
 
-2. Open the folder in **VS Code**.
-3. Set up a Python environment (with required packages like `transformers`, `torch`, etc.)
-4. Convert `.ipynb` notebooks to `.py` (optional) or run using Jupyter extension.
+Set up a Python environment (with required packages like transformers, torch, etc.)
 
----
+Convert .ipynb to .py (optional) or run using the Jupyter extension
 
-## 📌 Notes
+📌 Notes
 
-* No OpenAI API is used – All models are open-source and freely accessible.
-* Tasks 4–6 leverage **prompt engineering** to interact with large language models.
-* Some models (like Falcon) may require enabling GPU in Colab and a stable internet connection for downloading the model.
+No OpenAI API is used – all models are open-source and freely accessible
 
----
+Tasks 4–6 leverage prompt engineering for interacting with LLMs
 
-## 📄 License
+Some models (like Falcon) may require enabling GPU in Colab and a stable internet connection
 
-This project is released under the [MIT License](LICENSE).
+📄 License
 
----
+This project is released under the MIT License.
 
-## 🙋‍♀️ Author
+🙋‍♀️ Author
+Manahil Iftikhar
+AI/ML Intern – DevelopersHub (2025)
+GitHub: @Manahil-Iftikhar
 
-**Manahil Iftikhar**
-*AI/ML Intern – DevelopersHub (2025)*
-GitHub: [@Manahil-Iftikhar](https://github.com/Manahil-Iftikhar)
+🤝 Acknowledgements
 
----
+Hugging Face – for model access
 
-## 🤝 Acknowledgements
+Google Colab – for running notebooks
 
-* [Hugging Face](https://huggingface.co/) – For model access
-* [Google Colab](https://colab.research.google.com/) – For running notebooks
-* Open-source contributors and mentors at DevelopersHub
+Open-source contributors and mentors at DevelopersHub
 
----
-
-```
-
-
-I'm happy to help.
-```
