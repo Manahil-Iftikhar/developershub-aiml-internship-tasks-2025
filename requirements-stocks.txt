@@ -1,0 +1,2 @@
+-r requirements-notebook.txt
+yfinance>=0.2.65,<0.3

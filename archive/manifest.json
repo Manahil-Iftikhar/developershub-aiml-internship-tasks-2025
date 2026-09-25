@@ -1,0 +1,29 @@
+{
+  "original_commit": "725186ed2c34fc2c2c6cbe8b28e52707df05e612",
+  "files": [
+    {
+      "path": "archive/Task 1 - Exploring and Visualizing a Simple Dataset.ipynb",
+      "git_blob_sha": "b158af750d6e9b2ee50d50a7fedc55c4fc950194"
+    },
+    {
+      "path": "archive/Task 2 -  Predict Future Stock Prices (Short-Term).ipynb",
+      "git_blob_sha": "4c85866ac8bf11cd7f7a663b42b18d7d9862ca43"
+    },
+    {
+      "path": "archive/Task 3 - Heart Disease Prediction.ipynb",
+      "git_blob_sha": "885f5038c859f8fc986148e7d4d7a9a9edbf4621"
+    },
+    {
+      "path": "archive/Task 4 - General Health Query Chatbot (Prompt.ipynb",
+      "git_blob_sha": "c83d9648ed92119da0bb309359a62190ed87846b"
+    },
+    {
+      "path": "archive/Task 5 - Mental Health Support Chatbot (Fine-Tuned).ipynb",
+      "git_blob_sha": "88b1cb99b2f292788bf28bd178c5d0460af8387e"
+    },
+    {
+      "path": "archive/Task 6 - House Price Prediction.ipynb",
+      "git_blob_sha": "ac2dcfca280ece99c7f8bfde7b4d4091f1f97540"
+    }
+  ]
+}
