@@ -1,125 +1,73 @@
+![AI / ML FOUNDATIONS — Manahil Iftikhar](assets/cover.svg)
 
+# Foundations · AI/ML internship portfolio
 
-# 💼 AI/ML Internship Tasks – DevelopersHub Corporation (2025)
+**Manahil Iftikhar** · Python · Machine learning · Applied AI
 
-Welcome to the official repository for the **AI/ML Engineering Internship** at **DevelopersHub Corporation** (2025). This repository showcases **six complete chatbot-based projects** developed during the internship, focusing on healthcare applications using **machine learning, NLP, and large language models (LLMs).**
+A collection of 6 projects originating from my 2025 DevelopersHub Corporation internship. This maintained portfolio edition adds readable project guides, local VS Code workflows, reusable Python components, and checks that make the work easier to inspect and reproduce.
 
-🔗 **GitHub Repository:** [developershub-aiml-internship-tasks-2025](https://github.com/Manahil-Iftikhar/developershub-aiml-internship-tasks-2025)
+[Explore projects](#projects) · [Run locally](docs/SETUP.md) · [Verification](docs/VERIFICATION.md) · [Original submissions](archive/) · [Companion collection](https://github.com/Manahil-Iftikhar/DevelopersHub-AI-ML-Internship-Assignment-2)
 
----
+## Start here
 
-## 🚀 Project Overview
+Open [Iris exploration](notebooks/01-iris-exploration.ipynb) for a small example that runs without a dataset download.
 
-Each task in this internship focused on solving a unique healthcare-related problem using AI. The following table summarizes the developed chatbots:
+Each project page explains the problem, data, current implementation, recorded evidence, and next experiment. Original assignment titles are preserved for traceability; the descriptions reflect what the code currently does.
 
-| Task No. | Chatbot Name                    | Description                                                         |
-| -------- | ------------------------------- | ------------------------------------------------------------------- |
-| Task 1   | Disease Prediction Chatbot      | Predicts the most likely disease based on user-provided symptoms.   |
-| Task 2   | Medicine Recommendation Chatbot | Recommends medicines for given symptoms or diagnosed conditions.    |
-| Task 3   | Symptom Checker Chatbot         | Offers detailed insights and possible causes for reported symptoms. |
-| Task 4   | General Health Query Chatbot    | Responds to common health queries using prompt engineering.         |
-| Task 5   | Mental Health Support Chatbot   | Delivers emotionally supportive replies for mental wellness.        |
-| Task 6   | Healthcare QA Chatbot           | Answers factual health-related questions using a pre-trained LLM.   |
+## Projects
 
----
+| Task | Project | Focus | Execution / implementation state |
+| --- | --- | --- | --- |
+| 1 | [Iris exploration](docs/projects/01-iris-exploration.md) | Data exploration and visual explanation | Runs offline with the core environment |
+| 2 | [Stock forecasting](docs/projects/02-stock-forecasting.md) | Next-session regression and chronological evaluation | Local CSV or an explicit Yahoo Finance download required |
+| 3 | [Heart disease classification](docs/projects/03-heart-disease.md) | Binary classification and error analysis | Original CSV required |
+| 4 | [Health information chatbot](docs/projects/04-health-chatbot.md) | Prompt design with a pretrained text model | Model download required; responses need evaluation |
+| 5 | [Support chatbot prototype](docs/projects/05-support-prototype.md) | Inspection of pretrained causal-language-model inference | Inference prototype; fine-tuning remains to be implemented |
+| 6 | [House price regression](docs/projects/06-house-prices.md) | Tabular regression with reproducible preprocessing | Original CSV required; pipeline tested with synthetic fixtures |
 
-## 🛠️ Tools & Technologies
+## A look inside
 
-* **Python 3.x**
-* **Google Colab** – Interactive notebook environment
-* **VS Code** – Code development and testing
-* **Transformers (Hugging Face)** – LLMs like Falcon, BERT, etc.
-* **Prompt Engineering** – For Tasks 4–6 conversational logic
-* **Pandas / NumPy / Scikit-learn** – Data handling and machine learning
-* **Matplotlib / Seaborn** – Visualizations (where applicable)
+![Iris species by petal length and width](assets/iris-petals.svg)
 
----
+Setosa separates clearly on petal measurements in this reference sample; versicolor and virginica overlap more. The [exploration notebook](notebooks/01-iris-exploration.ipynb) connects the figure to data checks and distribution plots. [Rebuild the figure](tools/render_iris.py).
 
-## 📁 Repository Structure
+## Working in VS Code
 
-```plaintext
-developershub-aiml-internship-tasks-2025/
-│
-├── Task-1-Disease-Prediction/
-│   └── Disease_Prediction_Chatbot.ipynb
-│
-├── Task-2-Medicine-Recommendation/
-│   └── Medicine_Recommendation_Chatbot.ipynb
-│
-├── Task-3-Symptom-Checker/
-│   └── Symptom_Checker_Chatbot.ipynb
-│
-├── Task-4-General-Health-Query/
-│   └── General_Health_Chatbot.ipynb
-│
-├── Task-5-Mental-Health-Support/
-│   └── Mental_Health_Chatbot.ipynb
-│
-├── Task-6-Healthcare-QA/
-│   └── Healthcare_QA_Chatbot.ipynb
-│
-└── README.md
+```bash
+git clone https://github.com/Manahil-Iftikhar/developershub-aiml-internship-tasks-2025.git
+cd developershub-aiml-internship-tasks-2025
+python -m venv .venv
 ```
 
----
+Activate `.venv`, install `requirements-notebook.txt`, and select that environment in VS Code. See [Windows, macOS, and Linux commands](docs/SETUP.md). Install model dependencies only for the projects that need them.
 
-## ✅ How to Run the Chatbots
+## Engineering approach
 
-### 🔹 Using Google Colab (Recommended)
+- Preserve the original submissions and their recorded outputs in `archive/`.
+- Keep maintained notebooks in `notebooks/` with readable names and proper `.ipynb` extensions.
+- Put reusable logic in `portfolio/`; fit learned preprocessing on training data.
+- Compare against baselines and select models using validation data before final test evaluation.
+- Record actual results, dataset identity, and limitations together.
+- Run lightweight repository checks and focused tests without downloading model weights.
 
-1. Open any `.ipynb` notebook via Google Colab.
-2. Run the cells sequentially.
-3. Interact with the chatbot by providing input in the designated cell.
+## Repository guide
 
-### 🔸 Using VS Code
+| Location | Contents |
+| --- | --- |
+| `notebooks/` | Maintained, locally oriented task notebooks |
+| `portfolio/` | Reusable Python components |
+| `docs/projects/` | One case study per task |
+| `docs/SETUP.md` | Environments, data requirements, and run commands |
+| `docs/VERIFICATION.md` | What was executed and what still needs external assets |
+| `tests/` | Tests for preprocessing, evaluation, and applicable application behavior |
+| `archive/` | Original notebook contents and README from 2025 |
 
-1. Clone the repository:
+## Provenance and scope
 
-   ```bash
-   git clone https://github.com/Manahil-Iftikhar/developershub-aiml-internship-tasks-2025.git
-   ```
-2. Open the folder in **VS Code**.
-3. Set up a Python environment with the required packages:
+This is my independent internship portfolio, not a company-maintained repository. The original source is recorded at commit `725186ed2c34`. The 2026 portfolio maintenance adds organization, documentation, and revised examples; those additions should not be attributed to the original internship assessment.
 
-   * `transformers`
-   * `torch`
-   * `scikit-learn`
-   * `pandas`, etc.
-4. Use Jupyter extension or convert notebooks to `.py` scripts as needed.
+Model checkpoints, missing datasets, and verified public deployments are not bundled. Historical scores are identified as such in the project pages. No repository license file was present in the original snapshot; dataset and model terms must be checked separately before redistribution.
 
----
+## Author
 
-## 📌 Important Notes
-
-* 💡 **No OpenAI API** was used — all models are open-source and freely available.
-* ✨ Tasks 4–6 rely on **prompt engineering** for dynamic interaction with LLMs.
-* ⚙️ Some models (e.g., Falcon) may require:
-
-  * GPU acceleration (in Google Colab)
-  * Stable internet connection
-
----
-
-## 📄 License
-
-This project is licensed under the **[MIT License](LICENSE)** – free to use and modify.
-
----
-
-## 🙋‍♀️ Author
-
-**Manahil Iftikhar**
-AI/ML Intern – DevelopersHub (2025)
-🔗 GitHub: [@Manahil-Iftikhar](https://github.com/Manahil-Iftikhar)
-
----
-
-## 🤝 Acknowledgements
-
-* **Hugging Face** – For model access and support
-* **Google Colab** – For providing an accessible and powerful execution environment
-* **DevelopersHub Mentors** – For their guidance and support throughout the internship
-* **Open-source community** – For tools and libraries used across all tasks
-
-
-Let me know if you'd like this exported to a `.md` file or want custom badges (e.g., Python version, License, Colab links) added at the top!
+[Manahil Iftikhar](https://github.com/Manahil-Iftikhar) · DevelopersHub Corporation AI/ML internship, 2025

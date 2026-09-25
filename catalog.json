@@ -1,0 +1,56 @@
+[
+  {
+    "task": 1,
+    "title": "Iris exploration",
+    "assignment_title": "Exploring and Visualizing a Simple Dataset",
+    "status": "Runs offline with the core environment",
+    "notebook": "notebooks/01-iris-exploration.ipynb",
+    "case_study": "docs/projects/01-iris-exploration.md",
+    "original": "archive/Task 1 - Exploring and Visualizing a Simple Dataset.ipynb"
+  },
+  {
+    "task": 2,
+    "title": "Stock forecasting",
+    "assignment_title": "Predict Future Stock Prices (Short-Term)",
+    "status": "Local CSV or an explicit Yahoo Finance download required",
+    "notebook": "notebooks/02-stock-forecasting.ipynb",
+    "case_study": "docs/projects/02-stock-forecasting.md",
+    "original": "archive/Task 2 -  Predict Future Stock Prices (Short-Term).ipynb"
+  },
+  {
+    "task": 3,
+    "title": "Heart disease classification",
+    "assignment_title": "Heart Disease Prediction",
+    "status": "Original CSV required",
+    "notebook": "notebooks/03-heart-disease.ipynb",
+    "case_study": "docs/projects/03-heart-disease.md",
+    "original": "archive/Task 3 - Heart Disease Prediction.ipynb"
+  },
+  {
+    "task": 4,
+    "title": "Health information chatbot",
+    "assignment_title": "General Health Query Chatbot (Prompt Engineering)",
+    "status": "Model download required; responses need evaluation",
+    "notebook": "notebooks/04-health-chatbot.ipynb",
+    "case_study": "docs/projects/04-health-chatbot.md",
+    "original": "archive/Task 4 - General Health Query Chatbot (Prompt.ipynb"
+  },
+  {
+    "task": 5,
+    "title": "Support chatbot prototype",
+    "assignment_title": "Mental Health Support Chatbot (Fine-Tuned)",
+    "status": "Inference prototype; fine-tuning remains to be implemented",
+    "notebook": "notebooks/05-support-prototype.ipynb",
+    "case_study": "docs/projects/05-support-prototype.md",
+    "original": "archive/Task 5 - Mental Health Support Chatbot (Fine-Tuned).ipynb"
+  },
+  {
+    "task": 6,
+    "title": "House price regression",
+    "assignment_title": "House Price Prediction",
+    "status": "Original CSV required; pipeline tested with synthetic fixtures",
+    "notebook": "notebooks/06-house-prices.ipynb",
+    "case_study": "docs/projects/06-house-prices.md",
+    "original": "archive/Task 6 - House Price Prediction.ipynb"
+  }
+]
