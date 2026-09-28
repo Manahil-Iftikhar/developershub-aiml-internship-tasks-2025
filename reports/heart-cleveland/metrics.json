@@ -1,0 +1,290 @@
+{
+  "task": "classification",
+  "target": "target",
+  "seed": 42,
+  "rows": {
+    "train": 181,
+    "validation": 61,
+    "test": 61
+  },
+  "rows_removed_before_split": 0,
+  "selection_metric": "roc_auc",
+  "selected_on": "validation",
+  "selected_model": "logistic_regression",
+  "validation": {
+    "baseline": {
+      "accuracy": 0.5409836065573771,
+      "f1": 0.0,
+      "roc_auc": 0.5,
+      "confusion_matrix": [
+        [
+          33,
+          0
+        ],
+        [
+          28,
+          0
+        ]
+      ],
+      "classification_report": {
+        "0": {
+          "precision": 0.5409836065573771,
+          "recall": 1.0,
+          "f1-score": 0.7021276595744681,
+          "support": 33.0
+        },
+        "1": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 28.0
+        },
+        "accuracy": 0.5409836065573771,
+        "macro avg": {
+          "precision": 0.27049180327868855,
+          "recall": 0.5,
+          "f1-score": 0.35106382978723405,
+          "support": 61.0
+        },
+        "weighted avg": {
+          "precision": 0.2926632625638269,
+          "recall": 0.5409836065573771,
+          "f1-score": 0.37983955354028603,
+          "support": 61.0
+        }
+      }
+    },
+    "logistic_regression": {
+      "accuracy": 0.819672131147541,
+      "f1": 0.8,
+      "roc_auc": 0.935064935064935,
+      "confusion_matrix": [
+        [
+          28,
+          5
+        ],
+        [
+          6,
+          22
+        ]
+      ],
+      "classification_report": {
+        "0": {
+          "precision": 0.8235294117647058,
+          "recall": 0.8484848484848485,
+          "f1-score": 0.835820895522388,
+          "support": 33.0
+        },
+        "1": {
+          "precision": 0.8148148148148148,
+          "recall": 0.7857142857142857,
+          "f1-score": 0.8,
+          "support": 28.0
+        },
+        "accuracy": 0.819672131147541,
+        "macro avg": {
+          "precision": 0.8191721132897603,
+          "recall": 0.8170995670995671,
+          "f1-score": 0.817910447761194,
+          "support": 61.0
+        },
+        "weighted avg": {
+          "precision": 0.8195292689024608,
+          "recall": 0.819672131147541,
+          "f1-score": 0.8193785172498165,
+          "support": 61.0
+        }
+      }
+    },
+    "random_forest": {
+      "accuracy": 0.7704918032786885,
+      "f1": 0.7586206896551724,
+      "roc_auc": 0.8874458874458875,
+      "confusion_matrix": [
+        [
+          25,
+          8
+        ],
+        [
+          6,
+          22
+        ]
+      ],
+      "classification_report": {
+        "0": {
+          "precision": 0.8064516129032258,
+          "recall": 0.7575757575757576,
+          "f1-score": 0.78125,
+          "support": 33.0
+        },
+        "1": {
+          "precision": 0.7333333333333333,
+          "recall": 0.7857142857142857,
+          "f1-score": 0.7586206896551724,
+          "support": 28.0
+        },
+        "accuracy": 0.7704918032786885,
+        "macro avg": {
+          "precision": 0.7698924731182795,
+          "recall": 0.7716450216450217,
+          "f1-score": 0.7699353448275862,
+          "support": 61.0
+        },
+        "weighted avg": {
+          "precision": 0.7728891239203243,
+          "recall": 0.7704918032786885,
+          "f1-score": 0.7708627755794234,
+          "support": 61.0
+        }
+      }
+    }
+  },
+  "test": {
+    "selected_model": {
+      "accuracy": 0.8688524590163934,
+      "f1": 0.8666666666666667,
+      "roc_auc": 0.9577922077922079,
+      "confusion_matrix": [
+        [
+          27,
+          6
+        ],
+        [
+          2,
+          26
+        ]
+      ],
+      "classification_report": {
+        "0": {
+          "precision": 0.9310344827586207,
+          "recall": 0.8181818181818182,
+          "f1-score": 0.8709677419354839,
+          "support": 33.0
+        },
+        "1": {
+          "precision": 0.8125,
+          "recall": 0.9285714285714286,
+          "f1-score": 0.8666666666666667,
+          "support": 28.0
+        },
+        "accuracy": 0.8688524590163934,
+        "macro avg": {
+          "precision": 0.8717672413793103,
+          "recall": 0.8733766233766234,
+          "f1-score": 0.8688172043010753,
+          "support": 61.0
+        },
+        "weighted avg": {
+          "precision": 0.8766252119841718,
+          "recall": 0.8688524590163934,
+          "f1-score": 0.8689934778776661,
+          "support": 61.0
+        }
+      }
+    },
+    "baseline": {
+      "accuracy": 0.5409836065573771,
+      "f1": 0.0,
+      "roc_auc": 0.5,
+      "confusion_matrix": [
+        [
+          33,
+          0
+        ],
+        [
+          28,
+          0
+        ]
+      ],
+      "classification_report": {
+        "0": {
+          "precision": 0.5409836065573771,
+          "recall": 1.0,
+          "f1-score": 0.7021276595744681,
+          "support": 33.0
+        },
+        "1": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 28.0
+        },
+        "accuracy": 0.5409836065573771,
+        "macro avg": {
+          "precision": 0.27049180327868855,
+          "recall": 0.5,
+          "f1-score": 0.35106382978723405,
+          "support": 61.0
+        },
+        "weighted avg": {
+          "precision": 0.2926632625638269,
+          "recall": 0.5409836065573771,
+          "f1-score": 0.37983955354028603,
+          "support": 61.0
+        }
+      }
+    }
+  },
+  "feature_columns": [
+    "age",
+    "sex",
+    "cp",
+    "trestbps",
+    "chol",
+    "fbs",
+    "restecg",
+    "thalach",
+    "exang",
+    "oldpeak",
+    "slope",
+    "ca",
+    "thal"
+  ],
+  "limitations": "Educational retrospective classification, not future-risk prediction or diagnosis. Small historical single-site sample; one seed and random stratified holdout. No external validation, calibration, subgroup evaluation or clinical utility study. Some predictors require clinical tests; this is not a symptoms-only screening model. The original internship CSV is different and its scores are not directly comparable.",
+  "dataset": {
+    "name": "UCI Heart Disease, processed Cleveland subset",
+    "source": "https://archive.ics.uci.edu/dataset/45/heart+disease",
+    "download": "https://archive.ics.uci.edu/static/public/45/heart+disease.zip",
+    "doi": "10.24432/C52P4X",
+    "license": "CC BY 4.0",
+    "filename": "processed.cleveland.data",
+    "sha256": "a74b7efa387bc9d108d7d0115d831fe9b414b29ae7124f331b622b4efa0427c8",
+    "rows": 303,
+    "missing_before_preprocessing": {
+      "age": 0,
+      "sex": 0,
+      "cp": 0,
+      "trestbps": 0,
+      "chol": 0,
+      "fbs": 0,
+      "restecg": 0,
+      "thalach": 0,
+      "exang": 0,
+      "oldpeak": 0,
+      "slope": 0,
+      "ca": 4,
+      "thal": 2,
+      "num": 0
+    },
+    "target_mapping": "num 0 -> 0; num 1,2,3,4 -> 1",
+    "categorical_columns": [
+      "sex",
+      "cp",
+      "fbs",
+      "restecg",
+      "exang",
+      "slope",
+      "thal"
+    ],
+    "class_counts": {
+      "0": 164,
+      "1": 139
+    }
+  },
+  "environment": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.8.0",
+    "joblib": "1.5.3"
+  }
+}

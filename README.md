@@ -22,7 +22,7 @@ Each project page explains the problem, data, current implementation, recorded e
 | --- | --- | --- | --- |
 | 1 | [Iris exploration](docs/projects/01-iris-exploration.md) | Data exploration and visual explanation | Runs offline with the core environment |
 | 2 | [Stock forecasting](docs/projects/02-stock-forecasting.md) | Next-session regression and chronological evaluation | Local CSV or an explicit Yahoo Finance download required |
-| 3 | [Heart disease classification](docs/projects/03-heart-disease.md) | Binary classification and error analysis | Original CSV required |
+| 3 | [Heart disease classification](docs/projects/03-heart-disease.md) | Binary classification and error analysis | Measured UCI Cleveland case study; explicit source download required |
 | 4 | [Health information chatbot](docs/projects/04-health-chatbot.md) | Prompt design with a pretrained text model | Model download required; responses need evaluation |
 | 5 | [Support chatbot prototype](docs/projects/05-support-prototype.md) | Inspection of pretrained causal-language-model inference | Inference prototype; fine-tuning remains to be implemented |
 | 6 | [House price regression](docs/projects/06-house-prices.md) | Tabular regression with reproducible preprocessing | Original CSV required; pipeline tested with synthetic fixtures |
@@ -31,7 +31,11 @@ Each project page explains the problem, data, current implementation, recorded e
 
 - **Hosted checks passed:** [GitHub Actions run 36143467044](https://github.com/Manahil-Iftikhar/developershub-aiml-internship-tasks-2025/actions/runs/36143467044) verified repository structure, notebook files, local links, original-source integrity, and focused offline tests on September 25, 2026.
 - **Executed locally:** the Iris notebook ran successfully; its recorded figure appears below. The verification record reports 10 passing offline tests.
-- **Scope:** synthetic test fixtures verify code behavior, not predictive performance. Full external-data and language-model runs remain pending as detailed in the [verification record](docs/VERIFICATION.md).
+- **Scope:** synthetic test fixtures verify code behavior, not predictive performance. The Cleveland case study below has a recorded external-data run; other external-data and language-model runs remain pending as detailed in the [verification record](docs/VERIFICATION.md).
+
+## External-data classification case study
+
+The [UCI Cleveland experiment](docs/projects/03-heart-disease.md) now includes documented provenance, a verified source hash, categorical preprocessing, validation-based model selection and held-out error analysis. Logistic regression achieved test ROC-AUC **0.9578** versus **0.5000** for the baseline on **61 test rows**, with two false negatives and six false positives. This single retrospective holdout is educational evidence, not clinical validation. The original internship dataset and historical scores remain separate.
 
 ## A look inside
 
