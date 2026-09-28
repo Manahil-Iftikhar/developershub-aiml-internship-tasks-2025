@@ -21,7 +21,7 @@
     "task": 3,
     "title": "Heart disease classification",
     "assignment_title": "Heart Disease Prediction",
-    "status": "Original CSV required",
+    "status": "Measured UCI Cleveland case study; explicit source download required",
     "notebook": "notebooks/03-heart-disease.ipynb",
     "case_study": "docs/projects/03-heart-disease.md",
     "original": "archive/Task 3 - Heart Disease Prediction.ipynb"

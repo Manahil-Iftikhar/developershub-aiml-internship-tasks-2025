@@ -27,7 +27,7 @@ Open `notebooks/01-iris-exploration.ipynb` in VS Code to rerun the exploration i
 
 ## Execution limits
 
-The stock workflow has offline behavior tests; it has not been rerun against a downloaded market dataset during this maintenance. The heart-disease and house-price datasets were absent, so those full task runs remain pending. The health and support language models were not downloaded or executed. Their maintained notebooks were checked for Python syntax only, and no model-quality or medical-reliability claim follows from these checks.
+The stock workflow has offline behavior tests; it has not been rerun against a downloaded market dataset during this maintenance. The original heart-disease and house-price CSVs were absent. A separately sourced Cleveland heart-disease case study has since been executed as recorded below; the house-price run remains pending. The health and support language models were not downloaded or executed. Their maintained notebooks were checked for Python syntax only, and no model-quality or medical-reliability claim follows from these checks.
 
 Historical task scores remain identified in the individual project pages.
 
@@ -37,3 +37,9 @@ Historical task scores remain identified in the individual project pages.
 
 The [workflow](../.github/workflows/checks.yml) runs `python tools/check_workspace.py` and `python -m unittest discover -s tests -v` on pushes and pull requests. It does not execute all notebook cells, download market data or model weights, or evaluate medical response quality. The local Iris execution above is separate evidence, not a notebook run performed by CI.
 
+
+## Cleveland case study · September 29, 2026
+
+Executed the hash-verified UCI Cleveland workflow in the pinned core environment. The [report](../reports/heart-cleveland/metrics.json) records source and environment details; the [case study](projects/03-heart-disease.md) explains the split and error analysis. All 13 offline tests passed locally, including three added adapter tests for schema/labels/categories, missing values and altered source bytes. The maintained heart notebook was executed sequentially after downloading the source; committed outputs remain cleared.
+
+CI runs the adapter tests without network access. It does not download or retrain on Cleveland data; the measured report is from the separate local run.
