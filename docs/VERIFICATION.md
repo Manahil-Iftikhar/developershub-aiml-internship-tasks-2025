@@ -29,4 +29,11 @@ Open `notebooks/01-iris-exploration.ipynb` in VS Code to rerun the exploration i
 
 The stock workflow has offline behavior tests; it has not been rerun against a downloaded market dataset during this maintenance. The heart-disease and house-price datasets were absent, so those full task runs remain pending. The health and support language models were not downloaded or executed. Their maintained notebooks were checked for Python syntax only, and no model-quality or medical-reliability claim follows from these checks.
 
-The GitHub Actions workflow runs the offline checks above when GitHub enables it. Local success does not by itself establish a successful hosted CI run. Historical task scores remain identified in the individual project pages.
+Historical task scores remain identified in the individual project pages.
+
+## Hosted CI evidence
+
+[GitHub Actions run 36143467044](https://github.com/Manahil-Iftikhar/developershub-aiml-internship-tasks-2025/actions/runs/36143467044) completed successfully on **September 25, 2026**, for commit `16ff782d60d2f393f79d1001b3bf300f377bbbc5`. It used Python 3.12 and installed the pinned core requirements. Repository validation and focused offline test steps both passed.
+
+The [workflow](../.github/workflows/checks.yml) runs `python tools/check_workspace.py` and `python -m unittest discover -s tests -v` on pushes and pull requests. It does not execute all notebook cells, download market data or model weights, or evaluate medical response quality. The local Iris execution above is separate evidence, not a notebook run performed by CI.
+

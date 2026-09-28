@@ -2,6 +2,8 @@
 
 # Foundations · AI/ML internship portfolio
 
+[![Portfolio checks](https://github.com/Manahil-Iftikhar/developershub-aiml-internship-tasks-2025/actions/workflows/checks.yml/badge.svg?branch=main)](https://github.com/Manahil-Iftikhar/developershub-aiml-internship-tasks-2025/actions/workflows/checks.yml)
+
 **Manahil Iftikhar** · Python · Machine learning · Applied AI
 
 A collection of 6 projects originating from my 2025 DevelopersHub Corporation internship. This maintained portfolio edition adds readable project guides, local VS Code workflows, reusable Python components, and checks that make the work easier to inspect and reproduce.
@@ -24,6 +26,12 @@ Each project page explains the problem, data, current implementation, recorded e
 | 4 | [Health information chatbot](docs/projects/04-health-chatbot.md) | Prompt design with a pretrained text model | Model download required; responses need evaluation |
 | 5 | [Support chatbot prototype](docs/projects/05-support-prototype.md) | Inspection of pretrained causal-language-model inference | Inference prototype; fine-tuning remains to be implemented |
 | 6 | [House price regression](docs/projects/06-house-prices.md) | Tabular regression with reproducible preprocessing | Original CSV required; pipeline tested with synthetic fixtures |
+
+## Verification at a glance
+
+- **Hosted checks passed:** [GitHub Actions run 36143467044](https://github.com/Manahil-Iftikhar/developershub-aiml-internship-tasks-2025/actions/runs/36143467044) verified repository structure, notebook files, local links, original-source integrity, and focused offline tests on September 25, 2026.
+- **Executed locally:** the Iris notebook ran successfully; its recorded figure appears below. The verification record reports 10 passing offline tests.
+- **Scope:** synthetic test fixtures verify code behavior, not predictive performance. Full external-data and language-model runs remain pending as detailed in the [verification record](docs/VERIFICATION.md).
 
 ## A look inside
 
